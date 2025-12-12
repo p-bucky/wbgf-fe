@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export const Home = () => {
   const DEFAULT_DATA = {
     imageUrl:
@@ -115,12 +117,12 @@ export const Home = () => {
 
       {/* Footer */}
       <footer className="absolute bottom-4 sm:bottom-6 left-0 right-0 z-10 text-center">
-        <a
-          href="#bid"
+        <Link
+          to="/bid"
           className="text-sm text-white/70 hover:text-white underline underline-offset-4 transition-colors"
         >
           Bid now and make your gf feel special
-        </a>
+        </Link>
       </footer>
 
       {/* Shimmer animation keyframes */}
