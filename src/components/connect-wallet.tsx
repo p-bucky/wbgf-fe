@@ -15,8 +15,6 @@ export const ConnectWallet = () => {
     params: [account?.address as Address],
   });
 
-  console.log(balance);
-
   return (
     <div>
       {isConnected ? (

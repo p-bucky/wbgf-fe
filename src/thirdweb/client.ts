@@ -17,4 +17,10 @@ export const ERC20_CONTRACT = getContract({
   abi: ABIS.ERC20,
 });
 
+export const BIDDING_CONTRACT = getContract({
+  client: thirdwebClient,
+  address: import.meta.env.VITE_BIDDING_CONTRACT,
+  chain: chain,
+  abi: ABIS.BIDDING,
+});
  

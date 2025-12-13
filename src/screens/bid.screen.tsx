@@ -1,7 +1,10 @@
-import { ConnectWallet } from "../components"
+import { ConnectWallet, CreateAuction } from "../components"
 
 export const Bid = () => {
   return (  
-    <ConnectWallet />
+    <div>
+      <ConnectWallet />
+      <CreateAuction />
+    </div>
   )
 }
